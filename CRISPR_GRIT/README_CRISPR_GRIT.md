@@ -36,9 +36,9 @@ python generate_grit_guides.py -i <input.csv> -f <gene.fasta> -o <output.csv> \
 * `-i`, `--input_csv`: Path to the input gRNA CSV file.
 * `-f`, `--fasta`: Path to the target gene FASTA file.
 * `-o`, `--output_csv`: Path for the resulting output CSV file.
-* `--up_overhang`: 5 bp upstream Golden Gate overhang (e.g., `GGTCT`).
-* `--down_overhang`: 5 bp downstream Golden Gate overhang (e.g., `CGAGA`).
-* `--ha_length`: Desired length of the homology arms in base pairs (e.g., `40`).
+* `--up_overhang`: 5 bp upstream Golden Gate overhang (e.g., `GTCCA`).
+* `--down_overhang`: 5 bp downstream Golden Gate overhang (e.g., `GTTTT`).
+* `--ha_length`: Desired length of the homology arms in base pairs (e.g., `50`).
 * `--overlap_length`: Desired oligo overlap length for primer design (e.g., `20`).
 
 **Optional Arguments:**
@@ -47,5 +47,5 @@ python generate_grit_guides.py -i <input.csv> -f <gene.fasta> -o <output.csv> \
 
 ### Example
 ```bash
-python generate_grit_guides.py -i my_guides.csv -f ADE2.fasta -o GRIT_output.csv --up_overhang GGTCT --down_overhang CGAGA --ha_length 40 --overlap_length 20
+python generate_grit_guides.py -i my_guides.csv -f ADE2.fasta -o GRIT_output.csv --up_overhang GTCCA --down_overhang GTTTT --ha_length 50 --overlap_length 20
 ```
