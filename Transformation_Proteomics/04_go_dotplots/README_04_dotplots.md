@@ -7,10 +7,10 @@ This script visualizes Gene Ontology (GO) enrichment data. It takes raw CSV outp
 * CRAN packages: `ggplot2`, `stringr`, `egg`, `svglite`
 
 ### Inputs
-* **GO Enrichment CSVs:** Output files from DAVID Bioinformatics Resources (e.g., `StrongPositive_DAVID_DotPlot.csv`). The script expects columns for `Term`, `GeneRatio`, `FoldEnrichment`, and `Pvalue`.
+* **GO Enrichment CSVs:** Output files from DAVID Bioinformatics Resources (e.g., `StrongPositive_DAVID_DotPlot.csv`). The script expects columns for `Term`, `GeneRatio`, `FoldEnrichment`, and `Pvalue`. All DAVID input files are supplied in the DAVID_Inputs folder. All comparisons should be made using the full proteomics list as the background.
 
 ### Outputs
-* `_[Condition]_Dotplot.svg`: High-resolution, standardized SVG plots for each input file.
+* `_[Condition]_Dotplot.svg`: High-resolution, standardized SVG plots for each input file used for Figures 3D, 3E, 4E, 4F.
 
 ### Usage
 Update the input file variables (e.g., `FILE_GO_POS`, `FILE_GO_NEG`) in the User Configuration block. The script contains two functions (`generate_dotplot` and `generate_dotplot_YNBvYPD`) with slightly different scaling limits to accommodate different enrichment magnitudes. Run the script to export the plots.
