@@ -1,0 +1,9 @@
+Term,GeneRatio,FoldEnrichment,Pvalue
+translation,11.9760479,1.91,5.25E-09
+rRNA processing,5.988023952,2.09,0.00000778
+"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",3.592814371,2.51,0.0000349
+ribosome biogenesis,2.994011976,2.39,0.000484
+"endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2.794411178,2.34,0.00112
+translational initiation,2.794411178,2.13,0.00383
+"maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2.594810379,2.18,0.0046
+ribosomal large subunit biogenesis,2.594810379,2.07,0.00788

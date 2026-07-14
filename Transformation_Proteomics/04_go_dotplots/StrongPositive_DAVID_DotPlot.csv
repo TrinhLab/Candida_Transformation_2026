@@ -1,0 +1,9 @@
+Term,GeneRatio,FoldEnrichment,Pvalue
+cellular response to oxidative stress,4.733727811,1.59,0.0119
+proteasome-mediated ubiquitin-dependent protein catabolic process,3.747534517,1.75,0.00914
+intracellular protein transport,3.15581854,1.60,0.044
+ubiquitin-dependent protein catabolic process,2.564102564,1.72,0.0447
+cell redox homeostasis,1.972386588,2.36,0.00835
+intracellular iron ion homeostasis,1.775147929,2.29,0.0184
+proton transmembrane transport,1.775147929,2.29,0.0184
+amino acid biosynthetic process,1.57790927,2.21,0.0391

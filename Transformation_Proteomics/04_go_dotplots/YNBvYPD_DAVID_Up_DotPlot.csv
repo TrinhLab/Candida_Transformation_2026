@@ -1,0 +1,9 @@
+Term,GeneRatio,FoldEnrichment,Pvalue
+proteasome-mediated ubiquitin-dependent protein catabolic process,5.759162304,2.68,0.00494
+proteasomal ubiquitin-independent protein catabolic process,3.664921466,4.39,0.00268
+tricarboxylic acid cycle,3.664921466,2.56,0.0458
+L-arginine biosynthetic process,3.141361257,7.53,0.000307
+L-valine biosynthetic process,3.141361257,7.53,0.000307
+L-lysine biosynthetic process,2.617801047,8.79,0.000728
+L-leucine biosynthetic process,2.617801047,7.32,0.00199
+tetrahydrofolate interconversion,2.094240838,7.03,0.012
