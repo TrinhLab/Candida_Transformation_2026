@@ -8,7 +8,7 @@ This script correlates individual protein expression profiles against phenotypic
 * CRAN packages: `circlize`, `RColorBrewer`, `svglite`
 
 ### Inputs
-* **Centered DEP Data:** A CSV file containing the centered protein intensities for the treated conditions (e.g., `DEP_Centered_Final.csv`).
+* **Centered DEP Data:** A CSV file containing the centered protein intensities for the treated conditions (e.g., `DEP_Centered.csv`). This file is obtained from extracting VSN-normalized protein intensities or "centered" values from the Cal_Proteomics_DEP_TestvControl.csv file output from 01_dep_pca_limma.R.
 
 ### Outputs
 * `_Correlation_Heatmap.svg`: A high-resolution, publication-ready heatmap clustered by correlation bins.
